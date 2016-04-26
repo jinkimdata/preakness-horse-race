@@ -1,7 +1,7 @@
 {
-  "name": "preakness-lineup-2016",
+  "name": "preakness-horse-race",
   "version": "1.0.0",
-  "description": "preakness-lineup-2016",
+  "description": "preakness-horse-race",
   "main": "index.js",
   "scripts": {
     "jade": "jade  -P -p src/index.jade < src/index.jade > dist/index.html",
@@ -24,15 +24,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jinkimdata/preakness-lineup-2016.git"
+    "url": "git+https://github.com/jinkimdata/preakness-horse-race.git"
   },
   "keywords": [],
   "author": "Jin Bae Kim",
   "license": "",
   "bugs": {
-    "url": "https://github.com/jinkimdata/preakness-lineup-2016/issues"
+    "url": "https://github.com/jinkimdata/preakness-horse-race/issues"
   },
-  "homepage": "https://github.com/jinkimdata/preakness-lineup-2016#readme",
+  "homepage": "https://github.com/jinkimdata/preakness-horse-race#readme",
   "devDependencies": {
     "browser-sync": "latest",
     "eslint": "latest",
