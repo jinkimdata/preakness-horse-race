@@ -50,14 +50,47 @@ html(class="no-js", lang="en")
 				span.icon-facebook
 				span.icon-twitter
 		.container
+			.inputs
+				.inputBlock
+					select.inputHorse(required)
+						option(value="" disabled selected hidden) Choose your horse
+						option(value="0") American Pharoah (4-5 odds)
+						option(value="1") Dortmund (7-2 odds)
+						option(value="2") Mr. Z (20-1 odds)
+						option(value="3") Danzig Moon (15-1 odds)
+						option(value="4") Tale of Verve (30-1 odds)
+						option(value="5") Bodhisattva (20-1 odds)
+						option(value="6") Divining Rod (12-1 odds)
+						option(value="7") Firing Line (4-1 odds)
+				.inputBlock
+					span.dollarsign $
+					input.inputDollars(type="number" placeholder="Enter whole number")
+				.inputBlock
+					input.submit(type="submit" value="Place bet!")
+			.horseRace
+				.horse.horse--0
 
+				.horse.horse--1
+
+				.horse.horse--2
+
+				.horse.horse--3
+
+				.horse.horse--4
+
+				.horse.horse--5
+
+				.horse.horse--6
+
+				.horse.horse--7
+
+				
 		//- #leaderboard			
 		//- 	include includes/ad-for-body.html
 		
 		//Javascript
 		script(src="#{datalink}js/min/jquery-1.10.2.min.js")
 		script(src="#{datalink}js/min/modernizr.js")
-		script(src="#{datalink}js/javascript.js")
 		script(src="#{datalink}js/app.js")
 		//- script(src="#{datalink}js/min/app.min.js")
 

@@ -40,11 +40,42 @@
       <div id="logo"><a href="http://www.baltimoresun.com"><img src="images/baltimore-sun-logo.png" border="0"></a></div>
       <div class="tophat-share-tools"><span class="icon-facebook"></span><span class="icon-twitter"></span></div>
     </div>
-    <div class="container"></div>
+    <div class="container">
+      <div class="inputs">
+        <div class="inputBlock">
+          <select required class="inputHorse">
+            <option value="" disabled selected hidden>Choose your horse</option>
+            <option value="0">American Pharoah (4-5 odds)</option>
+            <option value="1">Dortmund (7-2 odds)</option>
+            <option value="2">Mr. Z (20-1 odds)</option>
+            <option value="3">Danzig Moon (15-1 odds)</option>
+            <option value="4">Tale of Verve (30-1 odds)</option>
+            <option value="5">Bodhisattva (20-1 odds)</option>
+            <option value="6">Divining Rod (12-1 odds)</option>
+            <option value="7">Firing Line (4-1 odds)</option>
+          </select>
+        </div>
+        <div class="inputBlock"><span class="dollarsign">$</span>
+          <input type="number" placeholder="Enter whole number" class="inputDollars">
+        </div>
+        <div class="inputBlock">
+          <input type="submit" value="Place bet!" class="submit">
+        </div>
+      </div>
+      <div class="horseRace">
+        <div class="horse horse--0"></div>
+        <div class="horse horse--1"></div>
+        <div class="horse horse--2"></div>
+        <div class="horse horse--3"></div>
+        <div class="horse horse--4"></div>
+        <div class="horse horse--5"></div>
+        <div class="horse horse--6"></div>
+        <div class="horse horse--7"></div>
+      </div>
+    </div>
     <!--Javascript-->
     <script src="js/min/jquery-1.10.2.min.js"></script>
     <script src="js/min/modernizr.js"></script>
-    <script src="js/javascript.js"></script>
     <script src="js/app.js"></script>
   </body>
 </html>
